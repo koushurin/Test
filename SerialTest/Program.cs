@@ -19,7 +19,7 @@ namespace SerialTest
             {
                 //string myData = mySerialPort.ReadLine();
                 //Console.WriteLine(myData);
-                mySerialPort.Write("o");
+                mySerialPort.Write("p");
                 System.Threading.Thread.Sleep(1000);
                 mySerialPort.Write("n");
                 System.Threading.Thread.Sleep(1000);
