@@ -112,7 +112,7 @@
             this.lblInfo.Name = "lblInfo";
             this.lblInfo.Size = new System.Drawing.Size(242, 140);
             this.lblInfo.TabIndex = 5;
-            this.lblInfo.Text = "田中太郎\r\n63歳男性\r\n\r\n<経歴>\r\n1980年\t○○大学卒業\r\n・・・\t\t・・・\r\n2019年\t厚生労働大臣就任";
+            this.lblInfo.Text = "川口　碧\r\n32歳女性\r\n\r\n<経歴>\r\n2014年\t東京国会大学卒業\r\n・・・\t\t・・・\r\n2019年\t厚生労働大臣就任";
             this.lblInfo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lblInfo.Visible = false;
             // 
@@ -206,6 +206,7 @@
             this.cbComment.Size = new System.Drawing.Size(276, 41);
             this.cbComment.TabIndex = 6;
             this.cbComment.SelectedIndexChanged += new System.EventHandler(this.cbComment_SelectedIndexChanged);
+            this.cbComment.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cbComment_KeyDown);
             // 
             // btnNeutral
             // 

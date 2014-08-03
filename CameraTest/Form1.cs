@@ -457,6 +457,12 @@ namespace CameraTest
             else if (cbComment.SelectedIndex == 1)
                 SelectBad();
         }
+
+        private void cbComment_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                btnSubmit.PerformClick();
+        }
     }
 
     class CommentInfo
